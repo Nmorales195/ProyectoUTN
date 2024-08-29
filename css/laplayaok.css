@@ -133,7 +133,7 @@ h2 {
 .testimonio .cita {
     font-weight: bold;
     text-align: center;
-    font-size: 22px;
+    font-size: 95%;
     display: block;
 }
 
@@ -300,11 +300,4 @@ h2 {
 
 .formulario input[type="submit"]:hover {
     background-color: #2e64a1;
-}
-
-@media (max-width: 640px) {
-    img {
-        width: 100%;
-        height: auto;
-    }
 }
