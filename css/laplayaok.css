@@ -71,6 +71,13 @@ nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+nav ul li a.activo {
+    border-color: #007193;
+    border-style: solid;
+    color: #007193;
+    background-color: white;
+}
+
 footer {
     background-color: #ccc;
     clear: both;
@@ -80,13 +87,6 @@ footer {
     margin-top: 20px;
     position: relative;
     bottom: 0;
-}
-
-nav ul li a.activo {
-    border-color: #007193;
-    border-style: solid;
-    color: #007193;
-    background-color: white;
 }
 
 .holder {
